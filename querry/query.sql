@@ -1,0 +1,1 @@
+SELECT j.cod, j.nome, g.genero,p.produtoras, j.descricao, j.nota, j.capa FROM jogos j JOIN generos g ON j.genero = g.cod JOIN produtoras p ON j.produtora = p.cod;
